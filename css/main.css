@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background: rgb(255, 118, 103);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+section article .live{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+}
+section aside .reel{
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+}
+section aside .reel ul{
+    list-style: none;
+    position: relative;
+    left: 20px;
+}
+section aside .reel ul a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    left: 0;
+    transition: all 200ms ease;
+}
+section aside .reel ul li a:hover{
+    left: 10px;
+    color: #42a2fd;
+}
+
+section article .live iframe{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 460px;
+}
+
+header .container .social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+}
+header .container .social a{
+    position: relative;
+    text-decoration: none;
+    color: #ffd5d5;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+    border: 1px solid transparent;
+}
+header .container .social a:hover{
+    background: #00000070;
+    border: 1px solid #000;
+}
